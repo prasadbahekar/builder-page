@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import "tailwindcss";
+
+
+
+h1, h2, h3, h4 {
+    font-family: "Pixelify Sans", sans-serif;
+    color: white;
+    opacity: .8;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 1.1;
+    opacity: .8;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 1.2;
+    opacity: .6;
+}
+
+p, a {
+    font-family: "Space Mono", sans-serif;
+    color: white;
+    opacity: .4;
+}
+
+a:hover {
+    opacity: .6;
+    cursor: cell;
+}
+
+.word-wrapper {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: bottom;
+    height: 1.1em;
+}
+
+#word {
+    font-family: "Space Mono", sans-serif;
+    display: inline-block;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}

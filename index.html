@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="./src/style.css"> -->
+    <title>Builder Page</title>
+  </head>
+  <body class="bg-[#121212] relative cursor-cell">
+
+    <nav class="w-full h-14 flex items-center bg-white/5 fixed top-0 px-8 justify-between">
+      <p class="text-lg text-white/60">$Prasad.Bahekar</p>
+      <a href="#">[ Builds ]</a>
+    </nav>
+
+    <!-- ! HERO ! -->
+    <section class="w-full min-h-[94vh] py-16 px-18 flex items-center justify-center flex-col">
+      <h1 class="mb-2 mt-12">Prasad Bahekar</h1>
+      <h3 class="mb-8">I build things for the <span class="text-green-500">web, games</span> and <span class="text-green-500">everything</span> in between</h3>
+      <div class="flex gap-2">
+        <p>I create stuff using </p>
+        <span class="word-wrapper mt-0.5 opacity-60">
+          <span id="word" class="text-green-500 opacity-60">React</span>
+        </span>
+      </div>
+    </section>
+
+    <!-- ! ABOUT ! -->
+    <section class="flex flex-col items-center pb-16">
+      <div class="bg-slate-700/30 w-4xl p-4">
+        <div class="flex gap-2">
+          <div class="h-3 w-3 bg-red-900 hover:bg-red-800"></div>
+          <div class="h-3 w-3 bg-yellow-700 hover:bg-yellow-600"></div>
+          <div class="h-3 w-3 bg-green-800 hover:bg-green-700"></div>
+        </div>
+        <div class="w-full pt-8 pb-4 px-2 flex flex-col gap-1">
+          <p class="!opacity-80">// About Me</p>
+          <p>I am a curious teen who likes to learn new concepts.</p>
+          <p>a student who likes turning random ideas into things that actually work.</p>
+          <p>I write code, make games, break things, and occasionally ship them.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ! STATS ! -->
+    <section class="absolute bottom-2 left-3 rounded-lg text-xs opacity-60">
+      <p>v0x0002</p>
+      <p id="time">TIME: 10:30:24:2000</p>
+    </section>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
