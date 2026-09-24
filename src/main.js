@@ -43,3 +43,12 @@ setInterval(() => {
         });
     }, 500);
 }, 2000);
+
+const cards = document.querySelectorAll(".project-card");
+
+cards.forEach((card) => {
+  card.addEventListener("click", (e) => {
+    if (e.target.closest("a")) return;
+    card.classList.toggle("active");
+  });
+});
