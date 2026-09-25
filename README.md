@@ -1,22 +1,61 @@
-## Builder Page
-Prasad's basic pixelized portfolio page perfect for Pixl
+# Builder Page
+> A pixelized personal portfolio website built for my Pixl Trial
 
-This website's sole purpose is to practice my UI skills (which is none) and complete my first trial in pixl.
+The main goal of this website was to practice my UI designing skills and try out new stuff to see what looks the best.
 
-### Sections
-- Navbar
-- Hero
-- About
-- Featured Builds
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://prasadbahekar.github.io/builder-page)
+
+.
+
+## Preview
+<img width="1329" height="620" alt="image" src="https://github.com/user-attachments/assets/a518e143-af7e-44dd-8a0a-09d1d4ebf004" />
+
+.
+
+## Sections
+- **Hero**: My name and a tagline thing
+- *About*: 3 lines about me
+- **Featured Builds**: My top 3 shipped projects
     - Voxel Engine
     - Diep Io
     - Armor Frontend
     
-- Contact
-- Footer
+- *Contact*: Slack, Insta, GitHub & Email 
 
-### Theme
-Everything is built in a dark theme with the primary color being green. There are no elements with rounded stuff and it fits the Pixl vibe. I even used the same font as Pixl's so that it looks cool.
+.
 
-### AI Usage
-I can confidently say that 85% - 90% of this code was written by me. ChatGPT was only used to add the transitions and dropdown mechanism's structure.
+## Design
+This website only has a dark theme.
+The primary color is set to be Green. (GitHub vibes stuff)
+The background is almost black.
+No components have curved borders so it looks like pixels.
+
+.
+
+## Featured Projects
+### Voxel Engine
+A website created using the Three.js library which is similar to Minecraft.
+
+### Diep Io
+A remake of the original Diep Io game made using the Phaser.js library.
+
+### Armor Frontend
+A website project which tested my UI designing skills.
+
+.
+
+## AI Usage
+AI has been only used to create cool transitions and debug some minor stuff. It was also used to create the dropdown functionality's structure.
+
+### Tech Stack
+The project is created in the Vite Framework
+- HTML
+- CSS (TailwindCSS)
+- JS
+
+.
+
+### Credits
+Fonts: Pixelify Sans, Space Mono
+Inspiration: Pixl
+Projects: me :P
